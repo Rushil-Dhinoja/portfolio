@@ -3,7 +3,7 @@ import Brand from "../Navbar/Brand"
 
 const Footer = () => {
   return (
-    <div className="width-100 display-flex align-items-center justify-center">
+    <div className="width-100 display-flex align-items-center justify-center my-40">
       <div className="">
         <Brand />
         <p className="font-teal-500 text-center mt-8 font-caption">

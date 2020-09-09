@@ -1,7 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Chip from "../components/Utils/Chip"
+import Header from "../components/Sections/Header/Header"
+import About from "../components/Sections/About/About"
+import Projects from "../components/Sections/Projects/Projects"
 
 export default function Home() {
-  return <Layout></Layout>
+  return (
+    <Layout>
+      <Header />
+      <About />
+      <Projects />
+    </Layout>
+  )
 }

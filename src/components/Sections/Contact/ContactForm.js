@@ -5,7 +5,6 @@ const ContactForm = () => {
     <form
       className="display-flex flex-column spacing-y-2 mt-24 width-2-of-5"
       method="post"
-      data-netlify="true"
     >
       <input
         type="text"

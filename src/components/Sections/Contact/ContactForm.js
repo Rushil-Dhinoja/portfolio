@@ -3,26 +3,30 @@ import React from "react"
 const ContactForm = () => {
   return (
     <form
+      name="Contact"
       className="display-flex flex-column spacing-y-2 mt-24 width-2-of-5"
       method="post"
     >
       <input
         type="text"
         placeholder="Name"
+        id="name"
         className="py-8 pl-16 border-radius-12 outline-none bg-secondary placeholder-teal-500 font-body placeholder-opacity-6 font-teal-500 border-width-1 border-solid border-transparent  focus-border-teal-500  "
         name="Name"
       />
       <input
         type="email"
         placeholder="Email"
-        className="py-8 pl-16 border-radius-12 outline-none  bg-secondary placeholder-teal-500 font-body placeholder-opacity-6 font-teal-500 border-width-1 border-solid border-transparent  focus-border-teal-500"
         name="email"
+        id="email"
+        className="py-8 pl-16 border-radius-12 outline-none  bg-secondary placeholder-teal-500 font-body placeholder-opacity-6 font-teal-500 border-width-1 border-solid border-transparent  focus-border-teal-500"
       />
       <textarea
         rows="8"
         className="py-8 pl-16 border-radius-12 outline-none roboto-regular bg-secondary placeholder-teal-500 font-body placeholder-opacity-6 font-teal-500 border-width-1 border-solid border-transparent  focus-border-teal-500"
         placeholder="Message"
         name="message"
+        id="message"
       ></textarea>
       <button
         type="submit"

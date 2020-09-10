@@ -14,7 +14,7 @@ const ContactForm = () => {
         name="Name"
       />
       <input
-        type="text"
+        type="email"
         placeholder="Email"
         className="py-8 pl-16 border-radius-12 outline-none  bg-secondary placeholder-teal-500 font-body placeholder-opacity-6 font-teal-500 border-width-1 border-solid border-transparent  focus-border-teal-500"
         name="email"

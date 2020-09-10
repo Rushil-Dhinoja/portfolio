@@ -15,6 +15,7 @@
     "build:css": "node-sass src/styles/index.scss src/styles/index.css"
   },
   "dependencies": {
+    "@molecule-ui/icons": "^0.0.7-alpha.0",
     "@molecule-ui/styles": "^0.0.7-alpha.0",
     "gatsby": "^2.24.50",
     "gatsby-plugin-sass": "^2.3.12",

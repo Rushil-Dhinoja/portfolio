@@ -12,7 +12,9 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "build:css": "node-sass src/styles/index.scss src/styles/index.css"
+    "build:css": "node-sass src/styles/index.scss src/styles/index.css",
+    "dev-m": "gatsby develop -H 0.0.0.0 -p 8000"
+
   },
   "dependencies": {
     "@molecule-ui/icons": "^0.0.7-alpha.0",

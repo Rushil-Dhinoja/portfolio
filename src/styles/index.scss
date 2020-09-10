@@ -22,7 +22,15 @@ html {
 body {
   box-sizing: border-box;
   background-color: #313131;
-  padding: 0 20rem;
+  padding: 0 4rem;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 8rem;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 0 20rem;
+  }
 }
 
 @import "../../node_modules/@molecule-ui/styles/src/index.scss";
@@ -68,7 +76,7 @@ body {
 .heading-one::before {
   content: "<h1>";
   left: 6px;
-  top: -6px;
+  top: -8px;
 }
 
 .heading-one::after {
@@ -79,7 +87,7 @@ body {
 .heading-two::before {
   content: "<h2>";
   left: 6px;
-  top: -10px;
+  top: -12px;
 }
 
 .heading-two::after {
@@ -97,7 +105,14 @@ body {
   width: 100px;
 }
 .pt-custom-20 {
-  padding-top: 20rem;
+  padding-top: 2rem;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 10rem;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 20rem;
+  }
 }
 
 .mt-custom-15 {
@@ -119,6 +134,20 @@ textarea {
   resize: none;
 }
 .icons {
-  width: 70px;
-  height: 70px;
+  width: 16px !important;
+  height: 16px !important;
+
+  @media screen and (min-width: 360px) {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 48px !important;
+    height: 48px !important;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 70px !important;
+    height: 70px !important;
+  }
 }

@@ -2,9 +2,9 @@ import React from "react"
 import HeadingTwo from "../../Utils/HeadingTwo"
 const AboutRight = () => {
   return (
-    <div className="width-50 display-flex flex-column justify-center">
+    <div className="lg:width-50 width-100 display-flex flex-column justify-center">
       <HeadingTwo>about</HeadingTwo>
-      <div className="width-3-of-5 font-white font-body spacing-y-4 roboto-regular line-height-5 mt-8">
+      <div className="lg:width-3-of-5 width-100 font-white font-body spacing-y-4 roboto-regular line-height-5 mt-8">
         <p>
           Student of Bachelors in Computer Science. Already completed three
           years diploma in Computer Science.

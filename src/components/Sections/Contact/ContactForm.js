@@ -8,13 +8,15 @@ const ContactForm = () => {
       method="POST"
       data-netlify="true"
     >
-      <input
-        type="text"
-        placeholder="Name"
-        id="name"
-        className="py-8 pl-16 border-radius-12 outline-none bg-secondary placeholder-teal-500 font-body placeholder-opacity-6 font-teal-500 border-width-1 border-solid border-transparent  focus-border-teal-500 width-100 "
-        name="Name"
-      />
+      <div>
+        <input
+          type="text"
+          placeholder="Name"
+          id="name"
+          className="py-8 pl-16 border-radius-12 outline-none bg-secondary placeholder-teal-500 font-body placeholder-opacity-6 font-teal-500 border-width-1 border-solid border-transparent  focus-border-teal-500 width-100 "
+          name="Name"
+        />
+      </div>
       <div>
         <input
           type="email"

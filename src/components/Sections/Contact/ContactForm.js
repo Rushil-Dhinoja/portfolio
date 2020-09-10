@@ -3,9 +3,10 @@ import React from "react"
 const ContactForm = () => {
   return (
     <form
-      name="Contact"
+      name="contact"
       className="display-flex flex-column spacing-y-2 mt-24 width-2-of-5"
-      method="post"
+      method="POST"
+      data-netlify="true"
     >
       <input
         type="text"

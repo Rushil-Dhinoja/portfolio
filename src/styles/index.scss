@@ -151,3 +151,21 @@ textarea {
     height: 70px !important;
   }
 }
+
+.img {
+  width: 100%;
+  height: auto;
+
+  @media screen and (min-width: 360px) {
+    width: 100%;
+    height: auto;
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 100%;
+    height: auto;
+  }
+}

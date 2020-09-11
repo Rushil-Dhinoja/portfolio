@@ -11,7 +11,7 @@ export default function Home() {
     <Layout>
       <Header />
       <About />
-      {/* <Projects /> */}
+      <Projects />
       <Contact />
       <SocialGroup />
     </Layout>

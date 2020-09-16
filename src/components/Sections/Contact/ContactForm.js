@@ -13,7 +13,7 @@ const ContactForm = () => {
         placeholder="Name"
         id="name"
         disabled="true"
-        className="py-8 lg:px-16 border-radius-12 outline-none bg-secondary placeholder-teal-500 font-body placeholder-opacity-6 font-teal-500 border-width-1 border-solid border-transparent  focus-border-teal-500  "
+        className="py-8 lg:px-16 border-radius-12 outline-none bg-secondary placeholder-teal-500 font-body placeholder-opacity-6 font-teal-500 border-width-1 border-solid border-transparent  focus-border-teal-500 display-none "
         name="netlify"
       />
       <input

@@ -7,12 +7,12 @@ const Project = ({ project }) => {
       <div className="lg:width-2-of-4 md:width-100 mr-0 lg:mr-12">
         <img src={project.img} alt={project.name} className="img" />
       </div>
-      <div className="lg:width-2-of-4 md:mt-6 md:width-100 display-flex flex-column">
+      <div className="lg:width-2-of-4 md:mt-6 lg:mt-0 md:width-100 display-flex flex-column">
         <h3 className="font-h3 font-teal-500 roboto-regular">{project.name}</h3>
         <p className="font-body font-white roboto-regular line-height-5 mt-8">
           {project.description}
         </p>
-        <div className="display-flex lg:justify-start sm:justify-start justify-start md:justify-center mt-8 md:spacing-x-1 spacing-x-2 flex-wrap mb-8 lg:mb-0 ">
+        <div className="display-flex lg:justify-start sm:justify-start justify-start md:justify-center mt-4 md:spacing-x-1 spacing-x-2 flex-wrap mb-8 lg:mb-0 ">
           {project.tech.map((name, index) => {
             return <Chip key={index}>{name}</Chip>
           })}

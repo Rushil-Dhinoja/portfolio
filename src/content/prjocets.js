@@ -6,6 +6,7 @@ import natoursfs from "../assets/natours-fs.png"
 import prashantportfolio from "../assets/prashantportdolio.png"
 import trillo from "../assets/trillo.png"
 import kroschke from "../assets/kroschke.png"
+import firebase from "../assets/firebasetodo.png"
 
 export const data = [
   {
@@ -35,7 +36,15 @@ export const data = [
     source: "https://github.com/Rushil-Dhinoja/Natours",
     img: natoursfs,
   },
-
+  {
+    name: "Firebase Todo",
+    description:
+      "A Todo app using react and redux for frontend and for backend and authentication it uses firebase firestore and firebase authentication. It also use firebase storage to store profile images",
+    tech: ["react", "redux", "firebase"],
+    live: "https://fbasetodo.netlify.app/",
+    source: "https://github.com/Rushil-Dhinoja/firebase-todo",
+    img: firebase,
+  },
   {
     name: "Natours Landing Page",
     description:

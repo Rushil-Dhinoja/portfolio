@@ -11,7 +11,18 @@ const HeaderLeft = () => {
         custom landing pages. If you are looking to build an online presence or
         hire you can contact me here.
       </p>
-      <ButtonPrimary>My Projects</ButtonPrimary>
+
+      <ButtonPrimary>
+        <a
+          style={{
+            color: "white",
+            textDecoration: "none",
+          }}
+          href="#projects"
+        >
+          Projects
+        </a>
+      </ButtonPrimary>
     </div>
   )
 }

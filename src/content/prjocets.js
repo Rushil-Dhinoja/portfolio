@@ -14,7 +14,7 @@ export const data = [
     description:
       "A React app with Redux as state management is a front-end only application built for fun and to learn how to handle 3rd party APIs, and uses local storage to save liked pokemon.",
     tech: ["react", "redux", "scss", "axios"],
-    live: "https://pdex.netlify.app",
+    live: "https://pokedex.rushildhinoja.me",
     source: "https://github.com/Rushil-Dhinoja/poke-dex",
     img: pokedex,
   },
@@ -41,7 +41,7 @@ export const data = [
     description:
       "A Todo app using react and redux for frontend and for backend and authentication it uses firebase firestore and firebase authentication. It also use firebase storage to store profile images",
     tech: ["react", "redux", "firebase"],
-    live: "https://fbasetodo.netlify.app/",
+    live: "https://todo.rushildhinoja.me",
     source: "https://github.com/Rushil-Dhinoja/firebase-todo",
     img: firebase,
   },
@@ -51,7 +51,7 @@ export const data = [
       "A simple static website built using HTML and SCSS only is a landing page for a tours company, which also has a full-fledge eCommerce website also developed by me. ",
     tech: ["html", "scss", "bem"],
     source: "https://github.com/Rushil-Dhinoja/NATOURS_CODE_ALONG",
-    live: "https://natourslanding.netlify.app/",
+    live: "https://natours.rushildhinoja.me/",
     img: natourslanding,
   },
   {
@@ -59,7 +59,7 @@ export const data = [
     description:
       "My first ever client project. Is a german License plate company, which provides custom license plates for their customers",
     tech: ["html", "css", "bem", "js"],
-    live: "https://kroschke.netlify.app/",
+    live: "https://kroschke.rushildhinoja.me/",
     source: "https://github.com/Rushil-Dhinoja/KROSCHKE-International",
     img: kroschke,
   },
@@ -77,7 +77,7 @@ export const data = [
     description:
       "A simple static website built using HTML and SCSS only is a landing page for a housing comapny.",
     tech: ["html", "scss", "bem"],
-    live: "https://nexterlanding.netlify.app/",
+    live: "https://nexter.rushildhinoja.me/",
     source: "https://github.com/Rushil-Dhinoja/NEXTER",
     img: nexterlanding,
   },
@@ -86,7 +86,7 @@ export const data = [
     description:
       "A simple static website built using HTML and SCSS only is a landing page for a Travel comapny.",
     tech: ["html", "scss", "bem"],
-    live: "https://trillolanding.netlify.app/",
+    live: "https://trillo.rushildhinoja.me/",
     source: "https://github.com/Rushil-Dhinoja/TRILLO",
     img: trillo,
   },

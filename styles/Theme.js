@@ -9,6 +9,10 @@ export const theme = {
     buttonDesktop: "14px",
     headings: "48px",
     secondaryHeadings: "32px",
+    heading1400: "36px",
+    heading900: "28px",
+    heading650: "32px",
+    heading400: "28px",
   },
   fontWeights: {
     light: 300,

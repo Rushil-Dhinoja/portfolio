@@ -9,7 +9,7 @@ export default function MyCreations() {
   const sectionClasses = classNames(commonStyles.wrapperWithMargin);
   const creationsData = data.creations;
   return (
-    <section className={sectionClasses}>
+    <section id="creations" className={sectionClasses}>
       <h2 className={styles.heading}>my creations</h2>
       <div className={styles.projectGallery}>
         {creationsData.map((creation, index) => (

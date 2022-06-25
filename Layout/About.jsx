@@ -13,7 +13,7 @@ export default function Skills() {
   const experienceData = data.experience;
   const educationData = data.education;
   return (
-    <section className={sectionClasses}>
+    <section id="about" className={sectionClasses}>
       <h3 className={styles.heading}>about</h3>
       <div className={styles.aboutContainer}>
         <div className={styles.aboutItem}>

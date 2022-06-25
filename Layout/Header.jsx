@@ -5,6 +5,7 @@ import data from "../CMS/Data/data.json";
 import Image from "next/image";
 import Images from "../constants/Images";
 import ProfileItem from "../components/ProfileItems";
+import CTA from "../components/CTA";
 
 export default function Header() {
   const styles = headerStyles();
@@ -23,6 +24,9 @@ export default function Header() {
           {userInfo.links.map((link, index) => (
             <ProfileItem key={index} data={link} />
           ))}
+        </div>
+        <div>
+          <CTA className={"mobile-screen"} />
         </div>
       </div>
       <div className={styles.headerRight}>

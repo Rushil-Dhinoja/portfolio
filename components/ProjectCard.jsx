@@ -4,20 +4,18 @@ import Image from "next/image";
 import Images from "../constants/Images";
 import projectCardStyles from "./ComponentStyles/ProjectCardStyles";
 
-export default function ProjectCard(props) {
+const ProjectCard = (props) => {
   const {
     data: { name, techStack, image, description, github, live, npm, rotate },
   } = props;
-  const styles = projectCardStyles();
+
+  const styles = projectCardStyles(props);
 
   const bottomBarClasses = classNames(styles.bars, styles.bottomBar);
 
   return (
     <>
-      <div
-        className={styles.cardWrapper}
-        style={{ transform: `rotate(${rotate})` }}
-      >
+      <div className={styles.cardWrapper} style={{ "--rotate": rotate }}>
         <div className={styles.bars}>
           <div className={styles.name}>{name}</div>
           <div className={styles.techStack}>{techStack}</div>
@@ -59,7 +57,10 @@ export default function ProjectCard(props) {
             )}
           </div>
         </div>
+        <div className={styles.description}>{description}</div>
       </div>
     </>
   );
-}
+};
+
+export default ProjectCard;

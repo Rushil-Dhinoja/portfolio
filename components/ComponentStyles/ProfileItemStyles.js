@@ -9,16 +9,18 @@ const profileItemStyles = createUseStyles((theme) => ({
     justifyContent: "center",
     borderRadius: "50%",
     position: "relative",
-    // "&:hover": {
-    //   "&:before": {
-    //     content: `'sdfds'`,
-    //     // content: (props) => {
-    //     //   console.log(props);
-    //     //   return `${props.data.name}`;
-    //     // },
-    //     position: "absolute",
-    //   },
-    // },
+    "@media screen and (max-width: 1400px)": {
+      padding: "16px",
+    },
+    "@media screen and (max-width: 900px)": {
+      padding: "12px",
+    },
+    "& > img": {
+      "@media screen and (max-width: 650px)": {
+        height: 22,
+        width: 22,
+      },
+    },
   },
 }));
 

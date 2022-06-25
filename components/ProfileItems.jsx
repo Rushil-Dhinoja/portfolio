@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Images from "../constants/Images";
-import profileItemStyles from "./ComponentStyles/ProfileItem";
+import profileItemStyles from "./ComponentStyles/ProfileItemStyles";
 
 export default function ProfileItem(props) {
   const styles = profileItemStyles(props);
@@ -16,7 +16,14 @@ export default function ProfileItem(props) {
       rel="noreferrer"
       className={styles.item}
     >
-      <Image src={Images[name]} alt={name} width={28} height={28} />
+      <Image
+        src={Images[name]}
+        alt={name}
+        width={28}
+        height={28}
+        className={styles.image}
+        layout="raw"
+      />
     </a>
   );
 }

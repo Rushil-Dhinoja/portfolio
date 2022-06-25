@@ -35,7 +35,7 @@
       "name": "Molecule-Chat-API",
       "techStack": "nodejs, expressjs, jwt, bcrypt, mongodb, handlebars",
       "image": "moleculeChat",
-      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "description": "A REST API built using the ExpressJS. Implements a highly secure messaging service using JWT and stores hash passwords using bcrypt and uses mongoDb as a database, with caching done using redis. Uses S3 to store user images. Deployed for production and staging on EBS. ",
       "github": "https://github.com/molecule-messages/molecule-chat-server",
       "live": "http://moleculemessagesapi-env.eba-rqmkafqd.ap-south-1.elasticbeanstalk.com",
       "rotate": "12deg"
@@ -44,7 +44,7 @@
       "name": "Natours",
       "techStack": "nodejs, expressjs, jwt, bcrypt, mongodb, pug, nodemailer",
       "image": "natours",
-      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "description": "A SSR e-commerce website built for learning purpose. Uses expressJS as a server framework and PUG Template engine for HTML rendering. Uses MongoDB as a Database, nodemailer for sending mails using GMAIL and stripe as a payment gateway ",
       "github": "https://github.com/Rushil-Dhinoja/Natours",
       "live": "https://natours-rushil.herokuapp.com/",
       "rotate": "-4deg"
@@ -53,7 +53,7 @@
       "name": "Poke Dex",
       "techStack": "react, redux, scss, poke-api-v2",
       "image": "pokeDex",
-      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "description": "Poke-DEX is a near about replica of the device shown in Pokemon the SHOW. It uses the Poke-api-v2 for the data and axios along with redux for data fetching and state-management along with browser local-storage to save liked pokemons",
       "github": "https://github.com/Rushil-Dhinoja/poke-dex",
       "live": "https://pokedex.rushildhinoja.me/pokemons",
       "rotate": "17deg"
@@ -62,7 +62,7 @@
       "name": "Todo-app",
       "techStack": "react, redux, styled-components, firebase",
       "image": "todoApp",
-      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "description": "A Simple TOdo-app build using react and redux, with firebase as a backend. Uses firebase authentication with email and password, google auth and facebook auth. Uses Firebase Firestore as database. HTML 5 canvas API to generate a image with initial.",
       "github": "https://github.com/Rushil-Dhinoja/firebase-todo",
       "live": "https://todo.rushildhinoja.me/",
       "rotate": "-7deg"
@@ -71,7 +71,7 @@
       "name": "Mini-Project-Collection",
       "techStack": "html, css, javascript",
       "image": "miniProject",
-      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "description": "Mini-project is a collection of typically one-day projects built using vanilla JS, HTML and CSS. no batteries used",
       "github": "https://miniproject.rushildhinoja.me/",
       "live": "https://miniproject.rushildhinoja.me/",
       "rotate": "11deg"

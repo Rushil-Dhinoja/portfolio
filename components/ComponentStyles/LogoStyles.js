@@ -5,6 +5,9 @@ const logoStyles = createUseStyles((theme) => ({
     fontWeight: theme.fontWeights.semiBold,
     lineHeight: 0,
     userSelect: "none",
+    "@media screen and (max-width: 900px)": {
+      display: "none",
+    },
   },
   "logo-dot": {
     fontSize: 64,

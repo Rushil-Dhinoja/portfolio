@@ -8,32 +8,15 @@ const globalStyles = createUseStyles((theme) => ({
       fontFamily: "Poppins",
       textTransform: "lowercase",
     },
+    html: {
+      scrollBehavior: "smooth",
+    },
   },
   "main-container": {
     fontFamily: "poppins",
-    "@media screen and (max-width: 1200px)": {
-      display: "none",
-    },
-  },
-
-  "mobile-container": {
-    display: "none",
-    "@media screen and (max-width: 1199px)": {
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      textAlign: "center",
-      height: "100vh",
-      padding: "20px",
-      "& > div": {
-        marginTop: "20px",
-        display: "flex",
-        "&:last-of-type": {
-          flexDirection: "column",
-        },
-      },
-    },
+    // "@media screen and (max-width: 1200px)": {
+    //   display: "none",
+    // },
   },
 }));
 

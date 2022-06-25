@@ -23,30 +23,7 @@ export default function Home() {
         </div>
 
         {/* Temporary Solution till the responsive design is done */}
-        <div className={styles["mobile-container"]}>
-          <div>
-            Rushil Dhinoja is currently in process of creating a new version of
-            his portfolio, request you visit the desktop version of the website.
-            Sorry for inconvenience, the mobile version will be available soon.
-          </div>
-          <div>if you want to connect at this moment use the below details</div>
-          <div className="links">
-            <a
-              href="https://api.whatsapp.com/send/?phone=917016613715"
-              target="_blank"
-              rel="noreferrer"
-            >
-              +91-7016613715
-            </a>
-            <a
-              href="mailto:dhinoja.rushil17@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              dhinoja.rushil17@gmail.com
-            </a>
-          </div>
-        </div>
+
         {/* Temporary Solution till the responsive design is done */}
       </ThemeProvider>
     </div>

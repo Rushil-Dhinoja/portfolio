@@ -46,14 +46,14 @@ export default function Contact() {
       setFormData({ name: "", email: "", message: "" });
       toast("contact request sent");
     } catch (error) {
-      toast(error.message);
+      toast("Something went wrong. Please Try Again Later");
       setFormData({ name: "", email: "", message: "" });
     }
   };
   const userInfo = data.info;
 
   return (
-    <div className={commonStyles.wrapperWithMargin}>
+    <div id="contact" className={commonStyles.wrapperWithMargin}>
       <h2 className={styles.heading}>Contact</h2>
       <div className={styles.contactForm}>
         <div className={styles.formItem}>

@@ -6,6 +6,18 @@ const aboutStyles = createUseStyles((theme) => ({
     fontWeight: theme.fontWeights.light,
     textAlign: "center",
     color: theme.colors.primary,
+    "@media screen and (max-width: 1400px)": {
+      fontSize: theme.fontSizes.heading1400,
+    },
+    "@media screen and (max-width: 900px)": {
+      fontSize: theme.fontSizes.heading900,
+    },
+    "@media screen and (max-width: 650px)": {
+      fontSize: theme.fontSizes.heading650,
+    },
+    "@media screen and (max-width: 400px)": {
+      fontSize: theme.fontSizes.heading400,
+    },
   },
   aboutContainer: {
     display: "flex",
@@ -13,6 +25,9 @@ const aboutStyles = createUseStyles((theme) => ({
     justifyContent: "space-around",
     marginTop: theme.spacing.subSectionMargin,
     rowGap: 40,
+    "@media screen and (max-width: 650px)": {
+      marginTop: 30,
+    },
   },
   aboutItem: {
     width: "40%",
@@ -23,6 +38,18 @@ const aboutStyles = createUseStyles((theme) => ({
     columnGap: 20,
     borderRadius: "16px",
     padding: 20,
+    "@media screen and (max-width: 1200px)": {
+      width: "45%",
+    },
+    "@media screen and (max-width: 1000px)": {
+      width: "80%",
+    },
+    "@media screen and (max-width: 650px)": {
+      width: "90%",
+    },
+    "@media screen and (max-width: 400px)": {
+      width: "100%",
+    },
   },
   aboutItemHeading: {
     fontSize: 16,
@@ -60,6 +87,12 @@ const aboutStyles = createUseStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     borderRadius: "16px",
+    "@media screen and (max-width: 650px)": {
+      width: "90%",
+    },
+    "@media screen and (max-width: 500px)": {
+      width: "100%",
+    },
   },
   experienceImage: {
     height: 50,
@@ -89,6 +122,12 @@ const aboutStyles = createUseStyles((theme) => ({
     borderRadius: "16px",
     color: theme.colors.white,
     justifyContent: "space-between",
+    "@media screen and (max-width: 650px)": {
+      width: "90%",
+    },
+    "@media screen and (max-width: 500px)": {
+      width: "100%",
+    },
   },
   grades: {
     display: "flex",

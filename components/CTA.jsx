@@ -1,7 +1,14 @@
+import classNames from "classnames";
 import CTAStyles from "./ComponentStyles/CTAStyles";
 
-export default function CTA() {
+export default function CTA({ className }) {
   const Styles = CTAStyles();
 
-  return <button className={Styles.button}>get in touch</button>;
+  const classes = classNames(className, Styles.button);
+
+  return (
+    <a href="mailto:dhinoja.rushil17@gmail.com" className={classes}>
+      get in touch
+    </a>
+  );
 }

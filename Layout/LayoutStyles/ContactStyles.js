@@ -27,6 +27,9 @@ const contactStyles = createUseStyles((theme) => ({
       outline: "none",
       borderRadius: 14,
       padding: "0 20px",
+      "@media screen and (max-width: 500px)": {
+        width: "300px",
+      },
     },
     "& > input": {
       height: "45px",
@@ -72,6 +75,10 @@ const contactStyles = createUseStyles((theme) => ({
     marginTop: theme.spacing.subSectionMargin,
     fontSize: 24,
     lineHeight: "50px",
+    "@media screen and (max-width: 500px)": {
+      fontSize: 20,
+      lineHeight: "40px",
+    },
   },
   linksContainer: {
     display: "flex",

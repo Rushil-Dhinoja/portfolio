@@ -5,6 +5,9 @@ const navigationStyles = createUseStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
+    "@media screen and (max-width: 650px)": {
+      justifyContent: "center",
+    },
   },
 }));
 

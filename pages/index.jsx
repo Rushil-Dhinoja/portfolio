@@ -2,7 +2,7 @@ import Head from "next/head";
 import { ThemeProvider } from "react-jss";
 import { Main } from "../Layout/Main";
 import { theme } from "../styles/Theme";
-import globalStyles from "./PageStyles/globalStyles";
+import globalStyles from "../styles/PageStyles/globalStyles";
 
 export default function Home() {
   const styles = globalStyles();

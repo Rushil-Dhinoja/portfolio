@@ -35,9 +35,6 @@ const globalStyles = createUseStyles((theme) => ({
       },
     },
   },
-  "#modal-root": {
-    background: "blue",
-  },
 }));
 
 export default globalStyles;

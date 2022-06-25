@@ -1,0 +1,105 @@
+import { createUseStyles } from "react-jss";
+
+const aboutStyles = createUseStyles((theme) => ({
+  heading: {
+    fontSize: theme.fontSizes.headings,
+    fontWeight: theme.fontWeights.light,
+    textAlign: "center",
+    color: theme.colors.primary,
+  },
+  aboutContainer: {
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "space-around",
+    marginTop: theme.spacing.subSectionMargin,
+    rowGap: 40,
+  },
+  aboutItem: {
+    width: "40%",
+    display: "flex",
+    flexDirection: "column",
+    boxShadow: theme.shadows.primary,
+    rowGap: 20,
+    columnGap: 20,
+    borderRadius: "16px",
+    padding: 20,
+  },
+  aboutItemHeading: {
+    fontSize: 16,
+    textAlign: "center",
+    fontWeight: theme.fontWeights.regular,
+    color: theme.colors.primary,
+  },
+  skillsContainer: {
+    display: "flex",
+    flexWrap: "wrap",
+    rowGap: 10,
+    columnGap: 10,
+    justifyContent: "center",
+  },
+  skill: {
+    background: theme.colors.primary,
+    fontSize: 14,
+    color: theme.colors.white,
+    padding: "8px 30px",
+    borderRadius: "500px",
+    textTransform: "lowercase",
+  },
+  experienceContainer: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-around",
+    flexWrap: "wrap",
+    rowGap: 10,
+    columnGap: 10,
+  },
+  experienceItem: {
+    width: "80%",
+    backgroundColor: theme.colors.primary,
+    padding: "10px",
+    display: "flex",
+    alignItems: "center",
+    borderRadius: "16px",
+  },
+  experienceImage: {
+    height: 50,
+    width: 50,
+    position: "relative",
+    borderRadius: 8,
+    overflow: "hidden",
+  },
+  experienceInfo: {
+    marginLeft: 10,
+    color: theme.colors.white,
+  },
+  educationContainer: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-around",
+    flexWrap: "wrap",
+    rowGap: 10,
+    columnGap: 10,
+  },
+  educationItem: {
+    width: "80%",
+    backgroundColor: theme.colors.primary,
+    padding: "15px",
+    display: "flex",
+    alignItems: "center",
+    borderRadius: "16px",
+    color: theme.colors.white,
+    justifyContent: "space-between",
+  },
+  grades: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  grade: {
+    fontSize: 24,
+    fontWeight: theme.fontWeights.light,
+  },
+}));
+
+export default aboutStyles;

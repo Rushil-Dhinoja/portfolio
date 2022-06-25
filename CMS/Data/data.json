@@ -1,0 +1,137 @@
+{
+  "info": {
+    "name": "rushil dhinoja",
+    "designation": "software engineer",
+    "links": [
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/rushil-dhinoja-4b6a83187/"
+      },
+      { "name": "github", "link": "https://github.com/Rushil-Dhinoja" },
+      {
+        "name": "resume",
+        "link": "https://drive.google.com/file/d/1bcfpuI8E0OxHnJ2qsmAKpGCP_l4y0H3F/view?usp=sharing"
+      }
+    ]
+  },
+  "reactSection": {
+    "headline": "specialized in creating sleek and premium user interface with the help of react."
+  },
+  "nodeSection": {
+    "headline": "responsible for creating secure and scalable web services with the help  of nodejs and mongodb"
+  },
+  "creations": [
+    {
+      "name": "Molecule-UI",
+      "techStack": "react, scss, rollup, typescript",
+      "image": "moleculeUi",
+      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "github": "https://github.com/Molecule-UI/moleculeui",
+      "live": "https://molecule.rushildhinoja.me/",
+      "npm": "https://www.npmjs.com/search?q=%40moleculeui",
+      "rotate": "-15deg"
+    },
+    {
+      "name": "Molecule-Chat-API",
+      "techStack": "nodejs, expressjs, jwt, bcrypt, mongodb, handlebars",
+      "image": "moleculeChat",
+      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "github": "https://github.com/molecule-messages/molecule-chat-server",
+      "live": "http://moleculemessagesapi-env.eba-rqmkafqd.ap-south-1.elasticbeanstalk.com",
+      "rotate": "12deg"
+    },
+    {
+      "name": "Natours",
+      "techStack": "nodejs, expressjs, jwt, bcrypt, mongodb, pug, nodemailer",
+      "image": "natours",
+      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "github": "https://github.com/Rushil-Dhinoja/Natours",
+      "live": "https://natours-rushil.herokuapp.com/",
+      "rotate": "-4deg"
+    },
+    {
+      "name": "Poke Dex",
+      "techStack": "react, redux, scss, poke-api-v2",
+      "image": "pokeDex",
+      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "github": "https://github.com/Rushil-Dhinoja/poke-dex",
+      "live": "https://pokedex.rushildhinoja.me/pokemons",
+      "rotate": "17deg"
+    },
+    {
+      "name": "Todo-app",
+      "techStack": "react, redux, styled-components, firebase",
+      "image": "todoApp",
+      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "github": "https://github.com/Rushil-Dhinoja/firebase-todo",
+      "live": "https://todo.rushildhinoja.me/",
+      "rotate": "-7deg"
+    },
+    {
+      "name": "Mini-Project-Collection",
+      "techStack": "html, css, javascript",
+      "image": "miniProject",
+      "description": "A collection of three packages @moleculeui/react, @molecule/styles, and @moleculeui/icons. @moleculeui/icons contains 190+ Icon components written in react. @moleculeui/react contains 10+ components for react projects. @moleculeui/styles contains a complete set of utilities for more than 25+ css properties",
+      "github": "https://miniproject.rushildhinoja.me/",
+      "live": "https://miniproject.rushildhinoja.me/",
+      "rotate": "11deg"
+    }
+  ],
+  "skills": [
+    "javascript",
+    "typescript",
+    "react",
+    "gatsby",
+    "nextJS",
+    "redux",
+    "redux-toolkit",
+    "NodeJS",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Styled-Components",
+    "MongoDB",
+    "Firebase",
+    "AWS"
+  ],
+  "experience": [
+    {
+      "company": "Byju's",
+      "designation": "software engineer",
+      "start": "june 2022",
+      "end": false,
+      "current": true,
+      "image": "byjus"
+    },
+    {
+      "company": "Byju's",
+      "designation": "software engineer intern",
+      "start": "oct 2021",
+      "end": "jun 2022",
+      "current": false,
+      "image": "byjus"
+    }
+  ],
+  "education": [
+    {
+      "school": "Gujarat Technological university",
+      "degree": "b.tech",
+      "start": "jul 2019",
+      "end": "jun 2022",
+      "current": false,
+      "grade": 7.81,
+      "gradeSystem": "CGPA",
+      "major": "computer science"
+    },
+    {
+      "school": "Gujarat Technological university",
+      "degree": "Diploma",
+      "start": "aug 2016",
+      "end": "may 2019",
+      "current": false,
+      "grade": 8.02,
+      "gradeSystem": "CGPA",
+      "major": "computer science"
+    }
+  ]
+}

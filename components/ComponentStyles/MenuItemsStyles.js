@@ -8,9 +8,9 @@ const menuItemsStyles = createUseStyles((theme) => ({
   menuItem: {
     cursor: "pointer",
     fontSize: 20,
-    color: theme.colors.primary,
     "& > a": {
       textDecoration: "none",
+      color: theme.colors.primary,
     },
     "&:not(:last-child)": {
       marginRight: 30,

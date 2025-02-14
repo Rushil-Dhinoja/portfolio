@@ -9,6 +9,8 @@ const Images = {
   githubIcon: "/Images/github-icon.svg",
   resume: "/Images/resume.svg",
   byjus: "/Images/byjus.jpeg",
+  transak: "/Images/transak.jpeg",
+  jio: "/Images/jio.jpeg",
   creations: {
     moleculeUi: "/Images/project-molecule-ui.svg",
     moleculeChat: "/Images/project-molecule-chat.svg",
